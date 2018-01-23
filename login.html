@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas粒子效果文字动画特效DEMO演示</title>
+    <link rel="stylesheet" href="css.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="Font-Awesome-master/css/font-awesome.min.css"/>
+</head>
+<body>
+<!--<div style="text-align:center;clear:both;position:absolute;top:0;left:260px">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>-->
+	<canvas class="canvas"></canvas>
+<div class="main-Dl">	
+	<span><img src="log.svg" /></span>
+	<span>今天是：2017年09月12日</span>
+</div>
+<div class="cp-preloader cp-preloader_type4 ACS">
+        <span class="cp-preloader__letter" data-preloader="A">A</span>
+        <span class="cp-preloader__letter" data-preloader="C">C</span>
+        <span class="cp-preloader__letter" data-preloader="S">S</span>
+</div>
+<div class="denglu">
+	<div class="Dtitle">
+			<label class="yh"><i></i><span>账号登录</span><i></i></label>
+			<span id="Error_1">用户名或者密码错误</span>
+			<span id="Codetext" class="codetext_1"></span>
+	</div>
+	<form id="login-form">		
+		<div class="user-wapper warps" id="userWapper">
+			<i class="icon fa fa-user"></i>
+			<label>				
+				<input type="text" class="uname srk" name="userNo" id="uname" maxlength="18" tabindex="1"placeholder="请输入用户名"/>
+				<span class="progress"></span>
+			</label>						
+		</div>
+		<div class="pwd-wapper warps" id="psdWapper">
+			<i class="icon fa fa-lock"></i>
+			<label>				
+				<input type="password" class="uname pwd" name="pwd" id="passwd" maxlength="18" tabindex="2"placeholder="请输密码"/>
+				<span class="progress"></span>
+			</label>			
+		
+		</div>
+		<div id="panelCheckCode">
+			<div class="yanzheng">
+				<span class="dxt">&#9993</span>
+				<input class="code" name="checkCode" id="checkCode" type="text" maxlength="10" tabindex="3" placeholder="请输入验证码" value="" />
+				<span class="fs" id="resend"><button type="button" class="btn-an ">发送验证码</button></span>
+			</div>
+			
+		</div>
+		<div class="btnDL">
+			<button class="btn-an hvr-shutter-out-horizontal" id="btnLogin" tabindex="4" typeof="submit" type="button">登录</button>
+			
+		</div>
+	</form>
+	<div class="tipsDiv">
+		<p class="tipsP"><span class="fa fa-warning fa-2x"></span>该账号已经登录是否继续登录？</p>
+		<p class="tipsLa">
+			<button class="btn-an Continue">继续</button>
+			<button class="GoBack btn-an">返回</button>
+		</p>	
+	</div>
+<!--	<button class="forceDL" type="button">强制登录</button>-->
+</div>
+<div class="bottomTips">
+	<p>&copy;2017-2025天津长城滨银汽车金融有限公司版权所有</p>
+	<p>客服热线：400-6527-606</p>	
+</div>
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+  <script src="wz.js"></script> 
+</body>
+</html>
